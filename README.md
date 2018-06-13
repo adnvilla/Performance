@@ -66,21 +66,18 @@ Frequency=2338337 Hz, Resolution=427.6544 ns, Timer=TSC
 # ConfigurationManager
 
 
-```ini
+    BenchmarkDotNet=v0.9.7.0
+    OS=Microsoft Windows NT 6.1.7601 Service Pack 1
+    Processor=Intel(R) Core(TM) i7-4770 CPU 3.40GHz, ProcessorCount=8
+    Frequency=3312861 ticks, Resolution=301.8539 ns, Timer=TSC
+    HostCLR=MS.NET 4.0.30319.42000, Arch=32-bit RELEASE
+    JitModules=clrjit-v4.7.2558.0
 
-BenchmarkDotNet=v0.9.7.0
-OS=Microsoft Windows NT 6.1.7601 Service Pack 1
-Processor=Intel(R) Core(TM) i7-4770 CPU 3.40GHz, ProcessorCount=8
-Frequency=3312861 ticks, Resolution=301.8539 ns, Timer=TSC
-HostCLR=MS.NET 4.0.30319.42000, Arch=32-bit RELEASE
-JitModules=clrjit-v4.7.2558.0
+    Type=ReadAppSettings  Mode=SingleRun  LaunchCount=3  
+    WarmupCount=1  TargetCount=30  
 
-Type=ReadAppSettings  Mode=SingleRun  LaunchCount=3  
-WarmupCount=1  TargetCount=30  
-
-```
-                      Method |        Median |        StdDev | Scaled |
----------------------------- |-------------- |-------------- |------- |
- AppSettingsMyHashTableValue |   301.8500 ns |   187.4537 ns |   0.08 |
-       HelperAppSettingValue | 2,112.9800 ns |   868.1730 ns |   0.58 |
-             AppSettingValue | 3,622.2500 ns | 1,611.4589 ns |   1.00 |
+                          Method |        Median |        StdDev | Scaled |
+    ---------------------------- |-------------- |-------------- |------- |
+     AppSettingsMyHashTableValue |   301.8500 ns |   170.5169 ns |   0.09 |
+           HelperAppSettingValue | 1,509.2700 ns | 1,201.2947 ns |   0.45 |
+                 AppSettingValue | 3,320.3900 ns |   965.1868 ns |   1.00 |
