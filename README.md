@@ -79,7 +79,8 @@ Type=ReadAppSettings  Mode=SingleRun  LaunchCount=3
 WarmupCount=1  TargetCount=30  
 
 ```
-                Method |    Median |    StdDev | Scaled |
----------------------- |---------- |---------- |------- |
- HelperAppSettingVelue | 1.8111 us | 0.4777 us |   0.50 |
-       AppSettingValue | 3.6223 us | 1.4886 us |   1.00 |
+                      Method |        Median |        StdDev | Scaled |
+---------------------------- |-------------- |-------------- |------- |
+ AppSettingsMyHashTableValue |   301.8500 ns |   187.4537 ns |   0.08 |
+       HelperAppSettingValue | 2,112.9800 ns |   868.1730 ns |   0.58 |
+             AppSettingValue | 3,622.2500 ns | 1,611.4589 ns |   1.00 |
