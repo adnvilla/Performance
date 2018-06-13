@@ -78,6 +78,6 @@ Frequency=2338337 Hz, Resolution=427.6544 ns, Timer=TSC
 
                           Method |        Median |        StdDev | Scaled |
     ---------------------------- |-------------- |-------------- |------- |
-     AppSettingsMyHashTableValue |   301.8500 ns |   170.5169 ns |   0.09 |
-           HelperAppSettingValue | 1,509.2700 ns | 1,201.2947 ns |   0.45 |
-                 AppSettingValue | 3,320.3900 ns |   965.1868 ns |   1.00 |
+     AppSettingsMyHashTableValue |   301.8500 ns |   148.8999 ns |   0.08 |
+           HelperAppSettingValue | 2,112.9800 ns | 7,578.8903 ns |   0.56 |
+                 AppSettingValue | 3,773.1750 ns | 1,087.6692 ns |   1.00 |

@@ -74,7 +74,7 @@ namespace ConfigurationManager
 
                             for (int i = 0; i < ap.AllKeys.Length; i++)
                             {
-                                _appSettings[ap.Keys.Get(i)] = ap.AllKeys[i];
+                                _appSettings[ap.Keys.Get(i)] = ap[i];
                             }
                         }
                     }
