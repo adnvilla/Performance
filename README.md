@@ -58,3 +58,28 @@ Frequency=2338337 Hz, Resolution=427.6544 ns, Timer=TSC
  |           ExceptionStackTrace |  45,445.3053 ns |   315.2136 ns |  3,720.93 |         49.18 |
  |     ExceptionMediumStackTrace | 116,205.4792 ns |   639.9017 ns |  9,514.56 |        119.63 |
  |       ExceptionDeepStackTrace | 175,454.3172 ns | 1,559.0901 ns | 14,365.68 |        204.93 |
+
+
+
+
+
+# ConfigurationManager
+
+
+```ini
+
+BenchmarkDotNet=v0.9.7.0
+OS=Microsoft Windows NT 6.1.7601 Service Pack 1
+Processor=Intel(R) Core(TM) i7-4770 CPU 3.40GHz, ProcessorCount=8
+Frequency=3312861 ticks, Resolution=301.8539 ns, Timer=TSC
+HostCLR=MS.NET 4.0.30319.42000, Arch=32-bit RELEASE
+JitModules=clrjit-v4.7.2558.0
+
+Type=ReadAppSettings  Mode=SingleRun  LaunchCount=3  
+WarmupCount=1  TargetCount=30  
+
+```
+                Method |    Median |    StdDev | Scaled |
+---------------------- |---------- |---------- |------- |
+ HelperAppSettingVelue | 1.8111 us | 0.4777 us |   0.50 |
+       AppSettingValue | 3.6223 us | 1.4886 us |   1.00 |

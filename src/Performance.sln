@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoxingUnboxing", "BoxingUnb
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exceptions", "Exceptions\Exceptions.csproj", "{632A9B28-A08F-4A0F-BE86-8AB6AAC1CF5F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfigurationManager", "ConfigurationManager\ConfigurationManager.csproj", "{CEF59742-6B91-4084-85E0-AA401E821341}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{632A9B28-A08F-4A0F-BE86-8AB6AAC1CF5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{632A9B28-A08F-4A0F-BE86-8AB6AAC1CF5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{632A9B28-A08F-4A0F-BE86-8AB6AAC1CF5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEF59742-6B91-4084-85E0-AA401E821341}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEF59742-6B91-4084-85E0-AA401E821341}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEF59742-6B91-4084-85E0-AA401E821341}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEF59742-6B91-4084-85E0-AA401E821341}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
